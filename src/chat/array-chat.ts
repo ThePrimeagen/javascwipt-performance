@@ -24,6 +24,8 @@ export class Chat {
             } else if (command === "leave") {
                 this.leave(user, rest[0]);
             }
+
+            console.log("message received", command, rest);
         });
 
         user.on("error", (error: Error) => {

@@ -1,9 +1,11 @@
 {
 	"dependencies": {
-		"typescript": "^5.1.6",
-		"ts-node": "^10.9.1",
+		"@types/command-line-args": "^5.2.0",
 		"@types/node": "^20.4.1",
-		"ws": "^8.13.0",
-		"@types/ws": "^8.5.5"
+		"@types/ws": "^8.5.5",
+		"command-line-args": "^5.2.1",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.1.6",
+		"ws": "^8.13.0"
 	}
 }
